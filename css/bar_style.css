@@ -1,0 +1,73 @@
+#sidebar{
+	width: 300px;
+    float: left;
+    height: 100%;
+    font-family: Microsoft JhengHei;
+}
+#richinfo_a{
+	display: inline-block;
+	padding-left: 5px;
+}
+#timepannel_a{
+	display: inline-block;
+	padding-left: 5px;
+}
+.navbar-brand {
+	font-family: Microsoft JhengHei;
+    font-weight: bold;
+    font-size: 3vh;
+    color: #FFFFFF;
+
+}
+.navbar-nav>li>a{
+	font-size: 18px;
+	font-family: Microsoft JhengHei;
+}
+html, body{
+	position: relative;
+	font-family: Microsoft JhengHei;
+	height: 100%;
+	width: 100%;
+}
+#container{
+	position: relative;
+}
+#map{
+    overflow: auto;
+    height: 100%;
+}
+#richinfo{
+	vertical-align: middle;
+	margin: 0px;
+    margin-left: 3px;
+}
+#richinfo{
+	vertical-align: middle;
+	margin: 0px;
+    margin-left: 3px;
+}
+#timepannel{
+	vertical-align: middle;
+	margin: 0px;
+    margin-left: 3px;
+}
+#btn-hide{
+	font-size: 5px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,.ui-widget {
+	font-family: Microsoft JhengHei;
+}
+.ui-accordion .ui-accordion-content {
+    padding: 0.5em 0.5em;
+}
+.ui-widget button {
+    font-family:  Microsoft JhengHei;
+    letter-spacing: 3px
+}
+#q_result{
+	
+	margin-top: 65px;
+}
+.table>thead>tr>th {
+	padding: 0px; 
+}

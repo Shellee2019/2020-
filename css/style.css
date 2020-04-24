@@ -1,0 +1,117 @@
+.wraper{
+	position:relative;
+	width: 100%;
+    height: 100%;
+}
+.map{
+     width: 100%;
+    height: 100%;
+}
+
+
+#showcase {
+    font-family: Microsoft JhengHei;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    font-size: 1vw;
+}
+.panel-footer{
+    padding: 5px 10px;
+}
+#casepanel{
+
+    float: left;
+
+}
+#buttonPanel{
+    width:38%;
+}
+.btn{
+    padding: 1px 1px
+}
+.more {
+    margin: 5px;
+    color: #F9F6F6;
+    cursor: pointer;
+}
+.panel{
+    margin: 2px;
+}
+.panel-body {
+    padding: 5px;
+}
+.panel-heading {
+    padding: 3px 3px;
+}
+.inner-heading{
+    font-size: 2em;
+}
+.casetype{
+    font-size: 1.3em;
+    padding-top: 0.2em;
+}
+.panel-heading a {
+    color: gray;
+}
+#timeinfo{
+    font-family: Microsoft JhengHei;
+    position: absolute;
+    padding-right:5px;
+    top:19%;
+    display:none;
+}
+.chart{
+    direction: ltr;
+}
+#list{
+    font-family: Microsoft JhengHei;
+    position: absolute;
+    padding-right:5px;
+    bottom:2%;
+    width: auto;
+    padding: 10px;
+    display: none;
+}
+.clickable {
+    background: rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#showcase_toggle {
+    font-size: 1.2em;
+    float: right;
+}
+#notiform {
+  width:auto;
+  z-index: 200;
+  left: 30px;
+  top: 30px;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 1);
+  overflow: scroll;
+}
+#map{
+    position: relative;
+}
+ul.ui-autocomplete{
+	z-index:99999999;
+}
+#notiform .row {
+    margin: 3px;
+    border: 1px solid gray;
+    border-color: #d9edf7;
+    border-radius: 5px;
+}
+#legend {
+  left: 5px;
+  bottom: 5px;
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  z-index: 2000;
+}
+
